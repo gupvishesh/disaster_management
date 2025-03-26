@@ -9,7 +9,7 @@ from firebase_config import db
 
 app = Flask(__name__)
 
-
+# myname is swayyy
 def get_phone_numbers():
     phone_numbers = []
     users_ref = db.collection("users").stream()  # Fetch all users
